@@ -82,7 +82,7 @@ const displayData = (data) => {
       // Create a p element for the release date
       let releaseDate = document.createElement("p");
       releaseDate.className = "date-color";
-      releaseDate.textContent = res.release_date || "Release Date Not Availible";
+      releaseDate.textContent = res.release_date || "Release Date Not Found";
   
       // Append the elements to the movie card
       movieCard.appendChild(posterImg);
